@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing: border-box;
+}
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+.navbar{
+    background: transparent;
+    float: right;
+    background-color: none;
+}
+nav ul li a i {
+    display: block !important;
+    transition: 1s;
+    background-color: none;
+    background: none;
+}
+nav ul li a:hover i {
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+nav ul li a:hover {
+    color: #0a8a26;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+body{
+    background-image: url(./cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+ * Navbar */
+.hotel a:hover {
+  background: rgb(82, 158, 31) !important;
+  opacity: 0.8;
+}
+
+.imgg {
+  transform: scale(1);
+  transition: all 0.4s ease-in-out;
+}
+.imgg:hover {
+  transform: scale(1.4);
+}
+
+/* Card button */
+.cm .btn:hover {
+  background: transparent;
+  border: 2px solid green;
+}
+
+.pn .btn:hover {
+  background: red;
+}
+
+.desh a {
+  text-decoration: none;
+  color: white;
+}
+.desh a:hover {
+  color: green;
+  text-decoration: none;
+}
+.design {
+  margin-bottom: 0px !important;
+}
+.navbar .dropdown-menu-right {
+  right: -91px;
+  left: auto;
+  top: 29px;
+}
+.prb a {
+  width: 70px;
+  height: 30px;
+  padding-top: 2px !important;
+}
+.prbb {
+  padding-right: 1px !important;
+}
+.prbb a {
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+}
+.btr:hover{
+    transition: .5s;
+    border: 2px solid green;
+}
+ 
