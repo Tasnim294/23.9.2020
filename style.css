@@ -34,7 +34,7 @@ body{
     background-attachment: fixed;
 
  }
- * Navbar */
+ /* Navbar */
 .hotel a:hover {
   background: rgb(82, 158, 31) !important;
   opacity: 0.8;
@@ -43,31 +43,12 @@ body{
 .imgg {
   transform: scale(1);
   transition: all 0.4s ease-in-out;
+  background: transparent;
 }
 .imgg:hover {
   transform: scale(1.4);
-}
-
-/* Card button */
-.cm .btn:hover {
-  background: transparent;
-  border: 2px solid green;
-}
-
-.pn .btn:hover {
-  background: red;
-}
-
-.desh a {
-  text-decoration: none;
-  color: white;
-}
-.desh a:hover {
-  color: green;
-  text-decoration: none;
-}
-.design {
-  margin-bottom: 0px !important;
+  background: #0a8a26;
+  color: #0a8a26;
 }
 .navbar .dropdown-menu-right {
   right: -91px;
@@ -78,16 +59,24 @@ body{
   width: 70px;
   height: 30px;
   padding-top: 2px !important;
+  background: transparent;
 }
 .prbb {
   padding-right: 1px !important;
+  background: transparent;
 }
 .prbb a {
   padding-left: 1px !important;
   padding-right: 1px !important;
+  background: transparent;
 }
-.btr:hover{
+.prb:hover{
     transition: .5s;
     border: 2px solid green;
+}
+.icon{
+  float: left;
+  padding-left: -5rem;
+  margin-left: 2rem;
 }
  
